@@ -1,0 +1,32 @@
+.Karte{
+    width: 500px;
+    display: inline-block;
+}
+.Bild{
+    width: 500xp;
+    height: 500xp;
+    object-fit: cover;
+}
+
+ion-card {
+    @media screen and (max-width: 2000xp) {
+        width: calc(25% - 20xp)
+    } 
+
+    @media screen and (max-width: 1500xp) {
+        width: calc(33.3% - 20xp)
+    }
+
+    @media screen and (max-width: 1000xp) {
+        width: calc(50% - 20xp)
+    }
+
+    @media screen and (max-width: 500xp) {
+        width: calc(100% - 20xp)
+    }
+}
+
+#speiseplan {
+    display:flex;
+    flex-wrap: wrap;
+}
