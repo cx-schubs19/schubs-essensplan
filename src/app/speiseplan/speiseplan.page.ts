@@ -17,6 +17,7 @@ export class SpeiseplanPage implements OnInit {
 
   hauptgerichte: Gericht[];
   beilagen: Gericht[];
+  
 
   constructor(private service: Service) {
   }
